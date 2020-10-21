@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.body-container {
+    margin-top: 8vh;
+    /* background-color: brown; */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-section {
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-section {
+    height: 25%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-section {
+    width: 20%;
+    /* background-color: crimson; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 100px;
+}
+
+.logo-section img {
+    height: 30px;
+    width: auto;
+}
+
+.list-section {
+    width: 80%;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+.main-section {
+    height: 75%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.hero-text {
+    width: 40%;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.hero-text-1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.hero-text-2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.hero-text-more {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.hero-image {
+    width: 60%;
+    /* background-color: darkorange; */
+}
+
+.hero-image img {
+    position: relative;
+    bottom: -50px;
+    right: -100px;
+    height: 100%;
+    width: auto;
+}
