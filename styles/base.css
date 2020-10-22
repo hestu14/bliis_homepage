@@ -54,6 +54,41 @@ html, body {
     font-size: 22px;
 }
 
+@media (max-width: 992px) { 
+    nav {
+        display: none ;
+    }
+
+    .dropdown-menu {
+        border: 0;
+        background-color: #ffffff00;
+        left: initial;
+        right: 0;
+        text-align: right;
+        left: initial;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .dropdown-item:hover {
+        background-color: #ffffff00;
+        transform: scale(1.05);
+    }
+    
+ }
+
+ @media (min-width: 992px) { 
+    .dropdown {
+        display: none ;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+ }
+
 .main-section {
     height: 75%;
     /* background-color: cornflowerblue; */
@@ -116,7 +151,7 @@ html, body {
 }
 
 .hero-image img {
-    height: 110%;
+    height: 100%;
     width: auto;
 }
 
