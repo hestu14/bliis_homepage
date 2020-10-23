@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
     background-color: lightsteelblue;
+    scroll-behavior: smooth;
 }
 
 .body-container {
@@ -132,6 +133,11 @@ html, body {
     cursor: pointer;
 }
 
+.hero-text-more a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero-text-more span:hover {
     border: 2px #EF8641 solid;
     padding: 7px;
@@ -156,6 +162,45 @@ html, body {
 }
 
 .why-section {
-    min-height: 400px;
     background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.why-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.why-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: khaki; */
+}
+
+.why-icon {
+    height: 75px;
+}
+
+.why-icon img {
+    width: 75px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.why-text {
+    height: auto;
+    margin-top: 115px;
+    text-align: center;
+    width: 70%;
+    font-family: 'Molengo', sans-serif;
+}
+
+.feature-section {
+    height: 500px;
+    background-color:WHITE;
 }
