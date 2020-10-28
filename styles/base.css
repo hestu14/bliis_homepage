@@ -8,6 +8,7 @@ html, body {
 
 .body-container {
     margin-top: 8vh;
+    margin-bottom: 8vh;
     /* background-color: brown; */
     padding-left: 0;
     padding-right: 0;
@@ -320,7 +321,7 @@ html, body {
 
 .theme-main-header {
     height: 5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Molengo', sans-serif;
 }
 
 .theme-main-web {
@@ -354,10 +355,11 @@ html, body {
 }
 
 .theme-main-button span {
-    border: 2px #EF8641 solid;
+    border: 3px #2C314B solid;
     padding: 7px;
     border-radius: 5px;
     cursor: pointer;
+    /* text-decoration: underline; */
 }
 
 .theme-main-button a {
@@ -365,8 +367,10 @@ html, body {
     color: inherit;
 }
 
-.theme-main-button:hover {
+.theme-main-button span:hover {
     transition-delay: 0.2s;
+    background-color: #2C314B;
+    color: white;
 }
 
 .contact-section {
@@ -375,4 +379,71 @@ html, body {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+}
+
+.contact-header {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: 'Molengo', sans-serif;
+}
+
+.contact-text-main {
+    width: 70%;
+    text-align: center;
+    line-height: 200%;
+}
+
+#whatsapp {
+    color: white;
+    text-decoration: none;
+    background-color: #25D366;
+    border: 1px solid #25D366;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#instagram {
+    color: white;
+    text-decoration: none;
+    background-color: #3f729b;
+    border: 1px solid #3f729b;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #EF8641;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Molengo', sans-serif;
+}
+
+.footer-text1 {
+    font-size: 14px;
+}
+
+.footer-text2 {
+    font-size: 12px;
+}
+
+.footer-text2 a {
+    text-decoration: none;
+    color: inherit;
 }
