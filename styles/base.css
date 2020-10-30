@@ -485,6 +485,7 @@ html, body {
 
     .main-section {
         flex-direction: column-reverse;
+        flex-flow: column-reverse;
         height: 88%;
     }
 
@@ -505,7 +506,7 @@ html, body {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
     
     .hero-image img {
@@ -538,12 +539,18 @@ html, body {
     }
 
     .feature-section {
-        min-height: 450px;
-        margin-bottom: 25px;
+        min-height: 600px;
+        padding-bottom: 25px;
     }
     
+    .feature-header {
+        height: 15%;
+    }
+
     .feature-main {
         flex-direction: column;
+        flex-flow: column;
+        height: 85%;
     }
 
     .feature-image {
