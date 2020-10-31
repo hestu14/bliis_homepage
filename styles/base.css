@@ -514,12 +514,15 @@ html, body {
         justify-content: center;
         align-items: flex-start;
         flex-direction: row;
-        margin-top: -75px;
+        /* margin-top: -75px; */
     }
     
     .hero-image img {
         height: auto;
         width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .hero-text-1 {
@@ -635,7 +638,7 @@ html, body {
 
     .theme-section {
         min-height: 1900px;
-        margin-top: -75px;
+        margin-top: -90px;
     }
 
     .theme-header {
