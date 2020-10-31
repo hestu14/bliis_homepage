@@ -63,6 +63,10 @@ html, body {
         display: none ;
     } */
 
+    .nav-link {
+        display: none;
+    }
+
     .dropdown-menu {
         border: 0;
         background-color: #ffffff00;
@@ -508,7 +512,7 @@ html, body {
         /* background-color: darkorange; */
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
         margin-top: -75px;
     }
@@ -520,7 +524,7 @@ html, body {
 
     .hero-text-1 {
         font-size: 26px;
-        margin-top: 25px;
+        margin-top: -25px;
     }
 
     .why-section {
@@ -589,6 +593,7 @@ html, body {
     
     .price-header {
         height: 15%;
+        padding-top: 75px;
     }
     
     .price-main {
@@ -603,9 +608,8 @@ html, body {
         /* background-color: lightcoral; */
         padding-left: 25px;
         padding-right: 25px;
-        padding-top: 50px;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 0px;
         font-size: 18px;
     }
     
@@ -710,6 +714,7 @@ html, body {
     .contact-text {
         padding-left: 25px;
         padding-right: 25px;
+        padding-top: 25px;
     }
 
     .contact-text-main {
