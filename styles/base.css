@@ -478,7 +478,7 @@ html, body {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        margin-top: -150px;
+        margin-top: -75px;
     }
 
     .nav-section {
