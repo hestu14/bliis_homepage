@@ -478,7 +478,7 @@ html, body {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        margin-top: -75px;
+        /* margin-top: -75px; */
     }
 
     .nav-section {
@@ -501,6 +501,7 @@ html, body {
         flex-direction: column-reverse;
         flex-flow: column-reverse;
         height: 88%;
+        margin-top: -75px;
     }
 
     .hero-text {
