@@ -487,10 +487,12 @@ html, body {
 
     .logo-section {
         padding-left: 25px;
+        width: 95%;
     }
 
     .list-section {
         padding-right: 25px;
+        width: 5%;
     }
 
     .dropdown {
