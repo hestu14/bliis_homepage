@@ -9,7 +9,6 @@ html, body {
 .body-container {
     margin-top: 8vh;
     margin-bottom: 8vh;
-    /* background-color: brown; */
     padding-left: 0;
     padding-right: 0;
 }
@@ -26,7 +25,6 @@ html, body {
 
 .nav-section {
     height: 25%;
-    /* background-color: chartreuse; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,9 +33,7 @@ html, body {
 
 .logo-section {
     width: 20%;
-    /* background-color: crimson; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding-left: 100px;
 }
@@ -49,7 +45,6 @@ html, body {
 
 .list-section {
     width: 80%;
-    /* background-color: darkblue; */
     display: flex;
     justify-content: right;
     align-items: center;
@@ -59,9 +54,6 @@ html, body {
 }
 
 @media (max-width: 992px) { 
-    /* nav {
-        display: none ;
-    } */
 
     .navbar-nav {
         display: flex;
@@ -107,16 +99,13 @@ html, body {
 
 .main-section {
     height: 75%;
-    /* background-color: cornflowerblue; */
     display: flex;
     justify-content: left;
-    /* align-items: center; */
     flex-direction: row;
 }
 
 .hero-text {
     width: 40%;
-    /* background-color: darkgreen; */
     display: flex;
     flex-direction: column;
     padding-left: 100px;
@@ -161,7 +150,6 @@ html, body {
 
 .hero-image {
     width: 60%;
-    /* background-color: darkorange; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +179,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: khaki; */
 }
 
 .why-icon {
@@ -231,7 +218,6 @@ html, body {
 
 .feature-image {
     width: 50%;
-    /* background-color: khaki; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,7 +232,6 @@ html, body {
 .feature-text {
     width: 50%;
     font-family: 'Molengo', sans-serif;
-    /* background-color: lightcoral; */
     padding-right: 100px;
     padding-top: 50px;
 }
@@ -272,7 +257,6 @@ html, body {
     width: 50%;
     font-family: 'Molengo', sans-serif;
     font-size: 24px;
-    /* background-color: lightcoral; */
     padding-left: 100px;
     padding-top: 50px;
     text-align: center;
@@ -285,7 +269,6 @@ html, body {
 
 .price-image {
     width: 50%;
-    /* background-color: khaki; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +293,6 @@ html, body {
 }
 
 .theme-main {
-    /* height: 85%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -320,9 +302,6 @@ html, body {
 }
 
 .theme-main1, .theme-main2, .theme-main3 {
-    /* width: 30%; */
-    /* border: 3px solid #8AA2BF; */
-    /* border-radius: 15px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -372,7 +351,6 @@ html, body {
     padding: 7px;
     border-radius: 5px;
     cursor: pointer;
-    /* text-decoration: underline; */
 }
 
 .theme-main-button a {
@@ -414,14 +392,14 @@ html, body {
 .contact-text-main {
     width: 70%;
     text-align: center;
-    line-height: 200%;
+    line-height: 225%;
 }
 
 #whatsapp {
     color: white;
     text-decoration: none;
     background-color: #25D366;
-    border: 1px solid #25D366;
+    border: 2px solid rgba(37, 211, 101, 0.795);
     padding: 4px;
     border-radius: 5px;
 }
@@ -430,7 +408,7 @@ html, body {
     color: white;
     text-decoration: none;
     background-color: #3f729b;
-    border: 1px solid #3f729b;
+    border: 2px solid rgba(63, 114, 155, 0.808);
     padding: 4px;
     border-radius: 5px;
 }
@@ -478,7 +456,6 @@ html, body {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        /* margin-top: -75px; */
     }
 
     .nav-section {
@@ -508,7 +485,6 @@ html, body {
 
     .hero-text {
         width: 100%;
-        /* background-color: darkgreen; */
         display: flex;
         flex-direction: column;
         padding-left: 25px;
@@ -519,12 +495,10 @@ html, body {
     .hero-image {
         width: 100%;
         height: 45vh;
-        /* background-color: darkorange; */
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: row;
-        /* margin-top: -75px; */
     }
     
     .hero-image img {
@@ -578,7 +552,6 @@ html, body {
         width: 100%;
         height: 325px;
         padding-top: 50px;
-        /* background-color: khaki; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -594,7 +567,6 @@ html, body {
         width: 100%;
         height: 200px;
         font-family: 'Molengo', sans-serif;
-        /* background-color: lightcoral; */
         padding-right: 25px;
         padding-left: 25px;
         padding-top: 25px;
@@ -618,7 +590,6 @@ html, body {
     .price-text {
         width: 100%;
         height: 250px;
-        /* background-color: lightcoral; */
         padding-left: 25px;
         padding-right: 25px;
         text-align: center;
@@ -633,7 +604,6 @@ html, body {
     .price-image {
         width: 100%;
         height: 250px;
-        /* background-color: khaki; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -657,31 +627,17 @@ html, body {
 
     .theme-main {
         padding-top: 0px;
-    }
-
-    /* .theme-main {
-        min-height: 2110px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding-left: 25px;
         padding-right: 25px;
-        padding-top: 25px;
     }
 
-    .theme-main1, .theme-main2, .theme-main3 {
-        width: 100%;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-    } */
-
-    .theme-main1, .theme-main2 {
-        border-bottom: 1px solid #2C314B;
+    .theme-main1:after, .theme-main2:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 50%; /* Change this to whatever width you want. */
+        padding-top: 25px; 
+        border-bottom: 1px solid #2C314B; /* This creates the border. Replace black with whatever color you want. */
     }
 
     .theme-main-web {
@@ -717,16 +673,16 @@ html, body {
         padding: 5px;
         border-radius: 5px;
         cursor: pointer;
-        /* text-decoration: underline; */
     }
     
     .contact-section {
         min-height: 300px;
+        padding-top: 25px;
     }
 
     .contact-text {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
         padding-top: 25px;
     }
 
