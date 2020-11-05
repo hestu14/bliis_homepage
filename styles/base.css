@@ -46,7 +46,7 @@ html, body {
 .list-section {
     width: 80%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     padding-right: 100px;
     font-family: 'Raleway', sans-serif;
@@ -365,7 +365,7 @@ html, body {
 }
 
 .contact-section {
-    min-height: 300px;
+    min-height: 360px;
     background-color:WHITE;
     display: flex;
     flex-direction: column;
@@ -373,19 +373,18 @@ html, body {
 }
 
 .contact-header {
-    height: 25%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contact-text {
-    height: 75%;
+    height: 80%;
     display: flex;
     justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 25px;
+    padding-bottom: 25px;
     font-family: 'Molengo', sans-serif;
 }
 
@@ -393,6 +392,15 @@ html, body {
     width: 70%;
     text-align: center;
     line-height: 225%;
+    text-align: left;
+}
+
+.col-contact1 img {
+    width: 100%;
+}
+
+.col-contact2 {
+    padding-left: 30px;
 }
 
 #whatsapp {
@@ -464,12 +472,10 @@ html, body {
 
     .logo-section {
         padding-left: 25px;
-        width: 85%;
     }
 
     .list-section {
         padding-right: 25px;
-        width: 15%;
     }
 
     .dropdown {
@@ -688,6 +694,13 @@ html, body {
 
     .contact-text-main {
         width: 100%;
+        text-align: center;
+    }
+
+    .col-contact2 {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .footer {
