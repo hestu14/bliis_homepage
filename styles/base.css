@@ -408,7 +408,7 @@ html, body {
     text-decoration: none;
     background-color: #25D366;
     border: 2px solid rgba(37, 211, 101, 0.795);
-    padding: 4px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -417,7 +417,7 @@ html, body {
     text-decoration: none;
     background-color: #3f729b;
     border: 2px solid rgba(63, 114, 155, 0.808);
-    padding: 4px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -687,8 +687,8 @@ html, body {
     }
 
     .contact-text {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top: 25px;
     }
 
